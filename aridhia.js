@@ -30,37 +30,3 @@ class Aridhia {
 	}
 
 }
-
-
-console.log("start...");
-console.log("1...");
-console.log("2...");
-console.log("3...");
-const aridhia = new Aridhia("stub");
-const meta = aridhia.getMeta("cord_19")
-				.then(meta => {
-					if (!meta)
-						console.log("Oh no, it's NULL");
-					else
-						console.log(meta.metaData)
-				});
-
-
-
-
-// // res = client.getDataSet("stub");
-// res = getMockResponse();
-// metaData = new MetaData(res);
-
-// // metaData.fields.map(field =>{
-// // 	console.log(field);
-// // }); 
-// console.log('MetaData object...');
-// console.log(metaData.fields[0]);
-
-
-// console.log('Meta object...');
-// const meta = new Meta(res);
-// console.log(meta.data.fields[0]);
-
-
