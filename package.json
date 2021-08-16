@@ -2,7 +2,7 @@
   "name": "js-aridhia",
   "version": "1.0.0",
   "description": "This is a javascript wrapper for Aridhia DRE API ( https://fair.covid-19.aridhia.io/api/docs/#/ )",
-  "main": "app.js",
+  "main": "aridhia.js",
   "dependencies": {
     "axios": "^0.21.1"
   },
