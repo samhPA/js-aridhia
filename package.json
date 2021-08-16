@@ -1,7 +1,7 @@
 {
-  "name": "fair-sdk",
+  "name": "js-aridhia",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a javascript wrapper for Aridhia DRE API ( https://fair.covid-19.aridhia.io/api/docs/#/ )",
   "main": "app.js",
   "dependencies": {
     "axios": "^0.21.1"
@@ -10,6 +10,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sam",
-  "license": "ISC"
+  "author": "toTheMoon247",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhPA/js-aridhia.git"
+  },
+  "keywords": [
+    "aridhia"
+  ],
+  "bugs": {
+    "url": "https://github.com/samhPA/js-aridhia/issues"
+  },
+  "homepage": "https://github.com/samhPA/js-aridhia#readme"
 }

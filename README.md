@@ -4,11 +4,11 @@ This is a javascript wrapper for Aridhia DRE API ( https://fair.covid-19.aridhia
 
 ### Installation
 
-``` npm install ```
+``` npm i js-aridhia ```
 
 ### How to use
 
-First make sure to store your Aridhia beared token under env variable with this name ```ARIDHIA_TOKEN```.
+First make sure to store your Aridhia beared token under env variable with the following name ```ARIDHIA_TOKEN```.
 
 ```javascript
 // import js-aridhis to your project
