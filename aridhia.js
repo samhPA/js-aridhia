@@ -1,8 +1,6 @@
 const http = require('./httpService');
 const config = require('./config.js');
 
-const getMockResponse = require('./fakeData');
-
 class Meta {
 	constructor(obj) {
 		this.metaData = obj.dictionaries[0];
@@ -30,3 +28,5 @@ class Aridhia {
 	}
 
 }
+
+module.exports = Aridhia;
