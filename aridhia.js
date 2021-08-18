@@ -7,15 +7,15 @@ class Meta {
 	}
 
 	getFields() {
-        return this.metaData.dictionaries[0].fields;
+        return this.res.dictionaries[0].fields;
     }
 
     getName() {
-        return this.metaData.name;
+        return this.res.name;
     }
 
     getDescription() {
-        return this.metaData.catalogue.description;
+        return this.res.catalogue.description;
     }
 }
 
