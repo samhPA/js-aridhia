@@ -2,9 +2,21 @@ const http = require('./httpService');
 const config = require('./config.js');
 
 class Meta {
-	constructor(obj) {
-		this.metaData = obj.dictionaries[0];
+	constructor(res) {
+		this.res = res;
 	}
+
+	getFields() {
+        return this.metaData.dictionaries[0].fields;
+    }
+
+    getName() {
+        return this.metaData.name;
+    }
+
+    getDescription() {
+        return this.metaData.catalogue.description;
+    }
 }
 
 class Aridhia {
