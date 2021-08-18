@@ -33,3 +33,4 @@ const meta = aridhia.getMeta("cord_19")
 ### To Do
 
 1. Add an axios interceptors on httpService
+2. Add getAll to ```class Aridhia```
