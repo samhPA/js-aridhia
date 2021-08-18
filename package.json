@@ -1,6 +1,6 @@
 {
   "name": "js-aridhia",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This is a javascript wrapper for Aridhia DRE API ( https://fair.covid-19.aridhia.io/api/docs/#/ )",
   "main": "aridhia.js",
   "dependencies": {
