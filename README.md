@@ -30,7 +30,7 @@ const meta = aridhia.getMeta("cord_19")
 		});
 ```
 
-### To Do
+### To Do...
 
 1. Add error message for error code 401: "Have set evn variable ARIDHIA_TOKEN to be your Aridhia bearer token?"
 2. Add getAll to ```class Aridhia```
